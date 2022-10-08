@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.manuber {
+    text-align: center;
+    margin-top: 10px;
+    padding: 25px;
+    background-color: white;
+}
+
+.manuber ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.manuber ul li a {
+    color: black;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.manuber ul li a:hover {
+    transition: .5s;
+    color: black;
+    background-color:white;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.icon ul li a i {
+    height: 60px;
+    width: 60px;
+    color: aliceblue;
+    background-color: greenyellow;
+    line-height: 60px;
+    border-radius: 100%;
+    font-size: 20px;
+    transition: .5s;
+    margin: 10px 10px;
+}
+
+.icon ul li a i:hover {
+    color: blue;
+    background-color: red;
+    transition: .5s;
+}
+
+.subcrive {
+    width: 400px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 6px;
+    padding: 32px 20px;
+    text-align: center;
+}
+
+.subcrive h3 {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.subcrive input {
+    margin: 0;
+    background: transparent;
+    padding: 10px 20px;
+    background: gainsboro;
+    border: none;
+}
+
+.baton {
+    background-color: red;
+    color: white;
+    border: 2px dotted;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.baton :hover {
+    background-color: red;
+    color: black;
+    transition: .5s;
+}
+
+.box {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(187, 250, 255);
+    border-radius: 6px;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.box h3 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color: rgb(31, 31, 31);
+    font-size: 60px;
+}
+
+
+.box form input {
+    width: 600px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button {
+    background-color: aqua;
+    color: red;
+    width: 200px !important;
+    cursor: pointer;
+}
